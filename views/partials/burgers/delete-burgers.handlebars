@@ -1,0 +1,13 @@
+<!-- <form action="/{{this.id}}?_method=DELETE" method="POST">
+  option 2, pass in the id of the cat inside the form - you would access this in the route using req.body.id not req.params.id
+  <!-- <input type="hidden" name="id" value="{{this.id}}">
+  <button type="submit">DELETE!</button>
+</form> -->
+
+
+
+
+<form action="/{{this.id}}?_method=DELETE" method="POST">
+    <input type="hidden" name="devour" value="true">
+    <button type="submit" class ='mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect' id='submit-btn'> <i class="material-icons">delete_forever</i> </button>
+</form>

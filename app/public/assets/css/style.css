@@ -1,0 +1,74 @@
+body {
+	background-color: #44AA00;
+	background-image: url("../images/burger.png");
+	background-size: 25px;
+	
+}
+
+*, h1, h2, h3, .mdl-button{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main-headers{
+	color: #F3C200;
+}
+
+h1, h2{ 
+	text-align: center;
+ }
+
+.mdl-layout__header {
+	/*background-color: #c66921;*/
+}
+
+
+.mdl-card{
+	margin: 0 auto;
+}
+
+.mdl-card__title{
+	text-align: center;
+}
+
+.mdl-card__actions mdl-card--border{
+	margin: 0 auto;
+	text-align: center;
+}
+
+form{
+		margin: 0 auto;
+	text-align: center;
+}
+
+.mdl-button__ripple-container{
+	/*color: #B2FF59;*/
+	/*background-color: #795548;*/
+}
+
+.mdl-button{
+	
+}
+
+.form{
+	display: inline;
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+}
+
+.label {
+    font-weight: bold;
+}
+
+/*.create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+}*/
+
+.form-group {
+    margin-bottom: 5px;
+}
